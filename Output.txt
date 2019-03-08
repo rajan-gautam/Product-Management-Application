@@ -1,0 +1,66 @@
+CPU          [123456]Quantity 5 Description: Central Processing Unit
+Memory       [654321]Quantity 10 Description: Basic Flash Memory
+GPU          [456789]Quantity 2 Description: General Porcessing Unit
+SSD          [987654]Quantity 5 Description: Solid State Drive
+Power Supply [147852]Quantity 20 Description: Basic AC Power Supply
+
+Manual Validation
+getName(): CPU
+getSerialNumber(): 123456
+getSerialNumber(): 123457
+getQuality(): 5
+getQuality(): 4
+
+************************
+Elliott C.
+Gaming PC
+[0]CPU[0]Memory[0]GPU[0]GPU[0]GPU[0]SSD[0]Power SupplyChris S.
+Laptop
+[0]CPU[0]Memory[0]SSD[0]Power SupplyMary-Lynn M.
+Desktop PC
+[0]CPU[0]Memory[0]Power SupplyChris T.
+Micro Controller
+[0]GPU[0]GPU[0]Power Supply[0]SSDFILLED Elliott C., Gaming PC [Power Supply]
+FILLED Chris S., Laptop [Power Supply]
+FILLED Elliott C., Gaming PC [CPU]
+FILLED Mary-Lynn M., Desktop PC [Power Supply]
+FILLED Chris S., Laptop [CPU]
+FILLED Elliott C., Gaming PC [GPU]
+FILLED Chris T., Micro Controller [Power Supply]
+FILLED Mary-Lynn M., Desktop PC [CPU]
+FILLED Elliott C., Gaming PC [GPU]
+FILLED Elliott C., Gaming PC [GPU]
+FILLED Elliott C., Gaming PC [Memory]
+FILLED Chris S., Laptop [Memory]
+FILLED Elliott C., Gaming PC [SSD]
+FILLED Chris T., Micro Controller [GPU]
+FILLED Mary-Lynn M., Desktop PC [Memory]
+FILLED Chris T., Micro Controller [GPU]
+FILLED Chris S., Laptop [SSD]
+FILLED Chris T., Micro Controller [SSD]
+Elliott C.
+Gaming PC
+[123458]CPUFilled
+[654321]MemoryFilled
+[456789]GPUFilled
+[456790]GPUFilled
+[456791]GPUFilled
+[987654]SSDFilled
+[147852]Power SupplyFilled
+Chris S.
+Laptop
+[123459]CPUFilled
+[654322]MemoryFilled
+[987655]SSDFilled
+[147853]Power SupplyFilled
+Mary-Lynn M.
+Desktop PC
+[123460]CPUFilled
+[654323]MemoryFilled
+[147854]Power SupplyFilled
+Chris T.
+Micro Controller
+[456792]GPUFilled
+[456793]GPUFilled
+[147855]Power SupplyFilled
+[987656]SSDFilled
